@@ -25,8 +25,4 @@ The course aims to:
 - **Roboflow** → Tool for dataset management and computer vision workflows.  
 - **Edge Impulse** → Platform for embedded ML model training and deployment.  
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)  
-![Raspberry Pi](https://img.shields.io/badge/Raspberry%20Pi-A22846?style=for-the-badge&logo=raspberrypi&logoColor=white)  
-![Roboflow](https://img.shields.io/badge/Roboflow-00ADEF?style=for-the-badge&logo=roboflow&logoColor=white)  
-![Edge Impulse](https://img.shields.io/badge/Edge%20Impulse-3A86FF?style=for-the-badge&logo=edgeimpulse&logoColor=white)  
-
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![Raspberry Pi](https://img.shields.io/badge/Raspberry%20Pi-A22846?style=for-the-badge&logo=raspberrypi&logoColor=white) ![Roboflow](https://img.shields.io/badge/Roboflow-00ADEF?style=for-the-badge&logo=roboflow&logoColor=white) ![Edge Impulse](https://img.shields.io/badge/Edge%20Impulse-3A86FF?style=for-the-badge&logo=edgeimpulse&logoColor=white)
