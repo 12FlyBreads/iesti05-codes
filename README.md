@@ -1,6 +1,6 @@
 # 📘 IESTI05 - Machine Learning System Engineering
 
-Repository containing codes based on **Machine Learning System Engineering (IESTI05)** course.
+Repository containing codes based on the **Machine Learning System Engineering (IESTI05)** course.
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/12FlyBreads/iesti05-codes?style=for-the-badge)
 ![GitHub last commit](https://img.shields.io/github/last-commit/12FlyBreads/iesti05-codes?style=for-the-badge)
