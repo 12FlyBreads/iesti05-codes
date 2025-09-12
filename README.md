@@ -1,4 +1,4 @@
-# 📘 IESTI05 - Machine Learning System Engineering
+# 🤖 IESTI05 - Machine Learning System Engineering
 
 Repository containing codes based on the **Machine Learning System Engineering (IESTI05)** course.
 
