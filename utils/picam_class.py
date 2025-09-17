@@ -19,14 +19,17 @@ class Picam:
         time.sleep(2)  # Allow camera to warm up
         print(f"Camera initialized with resolution {width}x{height}")
 
-    def capture_image(self, filename="image.jpg", show_image=False, directory="."):
+    def capture_image(self, filename=None, show_image=False, directory="../images"):
         """
         Function to capture an image and save it as 'image.jpg'.
-        param filename: Name of the file to save the image as (default is 'image.jpg').
+        param filename: Name of the file to save the image as (default is the current timestamp).
         param show_image: Boolean flag to display the image after capturing (default is False).
-        param directory: Directory to save the image (default is current directory).
+        param directory: Directory to save the image (default is /images directory).
         """
         os.makedirs(directory, exist_ok=True)
+        if filename is None:
+            timestamp = time.strftime("%Y-%m-%d_%H-%M-%S")
+            filename = f"img_{timestamp}.jpg"
         self.picam2.capture_file(os.path.join(directory, filename))
         print(f"Image captured and saved as '{filename} on {directory}'")
         if show_image:
@@ -35,23 +38,6 @@ class Picam:
             plt.imshow(img)
             plt.axis('off')
             plt.show()
-
-    def start_stream(self):
-        """
-        Start a real-time video stream from the camera.
-        Press 'q' to quit the stream.
-        """
-        print("Starting camera stream. Press 'q' to exit.")
-        
-        try:
-            while True:
-                frame = self.picam2.capture_array()
-                frame_bgr = cv2.cvtColor(frame, cv2.COLOR_RGBA2BGR)
-                cv2.imshow("Camera Stream", frame_bgr)
-                if cv2.waitKey(1) & 0xFF == ord('q'):
-                    break
-        finally:
-            cv2.destroyAllWindows()
 
     def stop_camera(self):
         """

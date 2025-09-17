@@ -36,15 +36,14 @@ The project files are organized to facilitate understanding and maintenance.
 ```bash
 .
 ├── classifications/ # Classification programs
-│   ├── get_img_data.py # Program to capture images
 │   ├── img_class_live_infer.py # Real time classification
-│   ├── models/ # Classification models
+│   └── models/ # Classification models
 │   │   └── ...
-│   └── images/ # Image datas
-│       └── ...
 ├── detections/
 ├── utils/
+│   ├── get_img_data.py # Program to capture images
 │   └── picam_class.py # Picam functions class
+├── images/ # Image datas
 └── ...
 
 ```
