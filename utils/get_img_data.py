@@ -10,7 +10,7 @@ app = Flask(__name__)
 
 # Global Variables
 script_dir = os.path.dirname(os.path.abspath(__file__))
-base_dir = os.path.join(os.path.dirname(script_dir), "../images")
+base_dir = os.path.join(os.path.dirname(script_dir), "images")
 width, height = 640, 480
 picam2 = None
 frame = None
