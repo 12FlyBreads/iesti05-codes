@@ -26,3 +26,27 @@ The course aims to:
 - **Edge Impulse** → Platform for embedded ML model training and deployment.  
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![Raspberry Pi](https://img.shields.io/badge/Raspberry%20Pi-A22846?style=for-the-badge&logo=raspberrypi&logoColor=white) ![Roboflow](https://img.shields.io/badge/Roboflow-00ADEF?style=for-the-badge&logo=roboflow&logoColor=white) ![Edge Impulse](https://img.shields.io/badge/Edge%20Impulse-3A86FF?style=for-the-badge&logo=edgeimpulse&logoColor=white)
+
+---
+
+## 📂 Project Organization
+
+The project files are organized to facilitate understanding and maintenance.
+
+```bash
+.
+├── classifications/ # Classification programs
+│   ├── get_img_data.py # Program to capture images
+│   ├── img_class_live_infer.py # Real time classification
+│   ├── models/ # Classification models
+│   │   └── ...
+│   └── images/ # Image datas
+│       └── ...
+├── detections/
+├── utils/
+│   └── picam_class.py # Picam functions class
+└── ...
+
+```
+
+---
