@@ -37,9 +37,13 @@ The project files are organized to facilitate understanding and maintenance.
 .
 ├── classifications/ # Classification programs
 │   ├── img_class_live_infer.py # Real time classification
+│   ├── img_classification.ipynb # Image classification notebook
 │   └── models/ # Classification models
-│   │   └── ...
+│       └── ...
 ├── detections/
+│   ├── object_detection_app.py # Image detection
+│   └── models/ # Detection models
+│       └── ...
 ├── utils/
 │   ├── get_img_data.py # Program to capture images
 │   └── picam_class.py # Picam functions class

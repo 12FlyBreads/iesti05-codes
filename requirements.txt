@@ -1,10 +1,11 @@
 # Python Packages (install inside the venv)
 
-pip3 install numpy==1.24.2  # Image processing
-pip install pillow # Image library
-pip install matplotlib  # For displaying images
-pip install opencv-python  # Computer vision
-pip install jupyter jupyterlab notebook # Jupyter notebook
-pip install tflite-runtime # Inference Model
+numpy==1.24.2  # Image processing
+pillow  # Image library
+matplotlib  # For displaying images
+opencv-python  # Computer vision
+jupyter  # Jupyter notebook
+jupyterlab  # JupyterLab
+notebook  # Jupyter Notebook
+tflite-runtime  # Inference Model
 
-pip list # List of all installations
